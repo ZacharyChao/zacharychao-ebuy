@@ -1,0 +1,31 @@
+server:
+  port: 8002
+spring:
+  application:
+    name: web
+  datasource:
+    url: jdbc:mysql://47.98.163.175:3306/zacharychao?useSSL=false&serverTimezone=UTC
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    username: root
+    password: zacharychao
+  mvc:
+    view:
+      prefix: /page/
+      suffix: .jsp
+    static-path-pattern: /static/**
+  redis:
+    database: 0
+    password: zacharychao
+    host: 47.98.163.175
+    port: 6379
+    jedis:
+      pool:
+        max-active: 8
+        max-wait: -1
+        max-idle: 8
+        min-idle: 0
+    timeout: 3000
+mybatis:
+  mapper-locations:
+  - classpath:mapper/*.xml
+    
