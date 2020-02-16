@@ -17,6 +17,9 @@
 		<module>zacharychao-ebuy-admin</module>
 		<module>zacharychao-ebuy-web</module>
 		<module>zacharychao-ebuy-mongodb</module>
+		<module>zacharychao-eureka1</module>
+		<module>zacharychao-eureka2</module>
+		<module>zacharychao-zuul</module>
 	</modules>
 	<properties>
 		<maven-jar-plugin.version>3.1.1</maven-jar-plugin.version>

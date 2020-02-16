@@ -10,12 +10,29 @@ spring:
       suffix: .jsp
   datasource:
     driver-class-name: com.p6spy.engine.spy.P6SpyDriver
-    url: jdbc:p6spy:mysql://localhost:3306/zacharychao?useSSL=false&serverTimezone=UTC
+    url: jdbc:p6spy:mysql://47.98.163.175:3306/zacharychao?useSSL=false&serverTimezone=UTC
     username: root
-    password: root123
+    password: zacharychao
     hikari:
       minimum-idle: 10
       maximum-pool-size: 30
+  redis:
+    database: 0
+    host: 47.98.163.175
+    password: zacharychao
+    port: 6379
+    jedis:
+      pool:
+        max-active: 5
+        max-wait: -1
+        max-idle: 8
+        min-idle: 0
+    timeout: 3000
 mybatis:
   mapper-locations:
   - classpath:mapper/*.xml
+  
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:10086/eureka
