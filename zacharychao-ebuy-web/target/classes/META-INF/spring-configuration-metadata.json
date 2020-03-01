@@ -1,0 +1,467 @@
+{
+  "groups": [
+    {
+      "name": "jdbc",
+      "type": "com.alibaba.druid.pool.DruidDataSource",
+      "sourceType": "com.zacharychao.web.configuration.DBConfig3",
+      "sourceMethod": "public com.alibaba.druid.pool.DruidDataSource dataSource_() "
+    },
+    {
+      "name": "jdbc",
+      "type": "com.zacharychao.web.configuration.JDBCProperty",
+      "sourceType": "com.zacharychao.web.configuration.JDBCProperty"
+    }
+  ],
+  "properties": [
+    {
+      "name": "jdbc.access-to-underlying-connection-allowed",
+      "type": "java.lang.Boolean",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "jdbc.active-connection-stack-trace",
+      "type": "java.util.List<java.lang.String>",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "jdbc.active-connections",
+      "type": "java.util.Set<com.alibaba.druid.pool.DruidPooledConnection>",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "jdbc.async-close-connection-enable",
+      "type": "java.lang.Boolean",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "jdbc.async-init",
+      "type": "java.lang.Boolean",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "jdbc.break-after-acquire-failure",
+      "type": "java.lang.Boolean",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "jdbc.clear-filters-enable",
+      "type": "java.lang.Boolean",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "jdbc.connect-properties",
+      "type": "java.util.Properties",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "jdbc.connection-error-retry-attempts",
+      "type": "java.lang.Integer",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "jdbc.connection-init-sqls",
+      "type": "java.util.Collection<java.lang.String>",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "jdbc.create-scheduler",
+      "type": "java.util.concurrent.ScheduledExecutorService",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "jdbc.db-type",
+      "type": "java.lang.String",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "jdbc.default-auto-commit",
+      "type": "java.lang.Boolean",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "jdbc.default-catalog",
+      "type": "java.lang.String",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "jdbc.default-read-only",
+      "type": "java.lang.Boolean",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "jdbc.default-transaction-isolation",
+      "type": "java.lang.Integer",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "jdbc.destroy-scheduler",
+      "type": "java.util.concurrent.ScheduledExecutorService",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "jdbc.driver",
+      "type": "java.sql.Driver",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "jdbc.driver-class-name",
+      "type": "java.lang.String",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "jdbc.driver-class-name",
+      "type": "java.lang.String",
+      "sourceType": "com.zacharychao.web.configuration.JDBCProperty"
+    },
+    {
+      "name": "jdbc.dup-close-log-enable",
+      "type": "java.lang.Boolean",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "jdbc.enable",
+      "type": "java.lang.Boolean",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "jdbc.exception-sorter",
+      "type": "com.alibaba.druid.pool.ExceptionSorter",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "jdbc.exception-sorter-class-name",
+      "type": "java.lang.String",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "jdbc.fail-fast",
+      "type": "java.lang.Boolean",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "jdbc.filter-class-names",
+      "type": "java.util.List<java.lang.String>",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "jdbc.init-global-variants",
+      "type": "java.lang.Boolean",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "jdbc.init-variants",
+      "type": "java.lang.Boolean",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "jdbc.initial-size",
+      "type": "java.lang.Integer",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "jdbc.keep-alive",
+      "type": "java.lang.Boolean",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "jdbc.kill-when-socket-read-timeout",
+      "type": "java.lang.Boolean",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "jdbc.log-abandoned",
+      "type": "java.lang.Boolean",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "jdbc.log-different-thread",
+      "type": "java.lang.Boolean",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "jdbc.login-timeout",
+      "type": "java.lang.Integer",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "jdbc.max-active",
+      "type": "java.lang.Integer",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "jdbc.max-create-task-count",
+      "type": "java.lang.Integer",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "jdbc.max-evictable-idle-time-millis",
+      "type": "java.lang.Long",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "jdbc.max-open-prepared-statements",
+      "type": "java.lang.Integer",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "jdbc.max-pool-prepared-statement-per-connection-size",
+      "type": "java.lang.Integer",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "jdbc.max-wait",
+      "type": "java.lang.Long",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "jdbc.max-wait-thread-count",
+      "type": "java.lang.Integer",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "jdbc.min-evictable-idle-time-millis",
+      "type": "java.lang.Long",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "jdbc.min-idle",
+      "type": "java.lang.Integer",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "jdbc.name",
+      "type": "java.lang.String",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "jdbc.not-full-timeout-retry-count",
+      "type": "java.lang.Integer",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "jdbc.object-name",
+      "type": "javax.management.ObjectName",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "jdbc.on-fatal-error-max-active",
+      "type": "java.lang.Integer",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "jdbc.oracle",
+      "type": "java.lang.Boolean",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "jdbc.password",
+      "type": "java.lang.String",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "jdbc.password",
+      "type": "java.lang.String",
+      "sourceType": "com.zacharychao.web.configuration.JDBCProperty"
+    },
+    {
+      "name": "jdbc.password-callback",
+      "type": "javax.security.auth.callback.PasswordCallback",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "jdbc.phy-timeout-millis",
+      "type": "java.lang.Long",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "jdbc.pool-prepared-statements",
+      "type": "java.lang.Boolean",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "jdbc.pooling-connection-info",
+      "type": "java.util.List<java.util.Map<java.lang.String,java.lang.Object>>",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "jdbc.proxy-filters",
+      "type": "java.util.List<com.alibaba.druid.filter.Filter>",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "jdbc.query-timeout",
+      "type": "java.lang.Integer",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "jdbc.remove-abandoned",
+      "type": "java.lang.Boolean",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "jdbc.remove-abandoned-timeout",
+      "type": "java.lang.Integer",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "jdbc.remove-abandoned-timeout-millis",
+      "type": "java.lang.Long",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "jdbc.reset-stat-enable",
+      "type": "java.lang.Boolean",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "jdbc.share-prepared-statements",
+      "type": "java.lang.Boolean",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "jdbc.sql-stat-map",
+      "type": "java.util.Map<java.lang.String,com.alibaba.druid.stat.JdbcSqlStat>",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "jdbc.stat-data",
+      "type": "java.util.Map<java.lang.String,java.lang.Object>",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "jdbc.stat-data-for-m-bean",
+      "type": "java.util.Map<java.lang.String,java.lang.Object>",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "jdbc.stat-logger",
+      "type": "com.alibaba.druid.pool.DruidDataSourceStatLogger",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "jdbc.test-on-borrow",
+      "type": "java.lang.Boolean",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "jdbc.test-on-return",
+      "type": "java.lang.Boolean",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "jdbc.test-while-idle",
+      "type": "java.lang.Boolean",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "jdbc.time-between-connect-error-millis",
+      "type": "java.lang.Long",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "jdbc.time-between-eviction-runs-millis",
+      "type": "java.lang.Long",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "jdbc.time-between-log-stats-millis",
+      "type": "java.lang.Long",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "jdbc.transaction-query-timeout",
+      "type": "java.lang.Integer",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "jdbc.transaction-threshold-millis",
+      "type": "java.lang.Long",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "jdbc.url",
+      "type": "java.lang.String",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "jdbc.url",
+      "type": "java.lang.String",
+      "sourceType": "com.zacharychao.web.configuration.JDBCProperty"
+    },
+    {
+      "name": "jdbc.use-global-data-source-stat",
+      "type": "java.lang.Boolean",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "jdbc.use-local-session-state",
+      "type": "java.lang.Boolean",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "jdbc.use-oracle-implicit-cache",
+      "type": "java.lang.Boolean",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "jdbc.use-unfair-lock",
+      "type": "java.lang.Boolean",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "jdbc.user-callback",
+      "type": "javax.security.auth.callback.NameCallback",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "jdbc.username",
+      "type": "java.lang.String",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "jdbc.username",
+      "type": "java.lang.String",
+      "sourceType": "com.zacharychao.web.configuration.JDBCProperty"
+    },
+    {
+      "name": "jdbc.valid-connection-checker",
+      "type": "com.alibaba.druid.pool.ValidConnectionChecker",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "jdbc.valid-connection-checker-class-name",
+      "type": "java.lang.String",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "jdbc.validation-query",
+      "type": "java.lang.String",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "jdbc.validation-query-timeout",
+      "type": "java.lang.Integer",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "jdbc.wall-stat-map",
+      "type": "java.util.Map<java.lang.String,java.lang.Object>",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource"
+    },
+    {
+      "name": "jdbc.max-idle",
+      "type": "java.lang.Integer",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource",
+      "deprecated": true,
+      "deprecation": {}
+    },
+    {
+      "name": "jdbc.num-tests-per-eviction-run",
+      "type": "java.lang.Integer",
+      "sourceType": "com.alibaba.druid.pool.DruidDataSource",
+      "deprecated": true,
+      "deprecation": {}
+    }
+  ],
+  "hints": []
+}

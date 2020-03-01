@@ -17,6 +17,8 @@ import com.zacharychao.web.mapper.DemoMapper;
 @Service
 @CacheConfig(cacheNames= {"webService_"})
 public class WebService {
+	
+	
 	@Autowired
 	private RedisTemplate redisTemplate;
 	@Autowired

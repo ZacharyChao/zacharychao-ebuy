@@ -28,4 +28,11 @@ spring:
 mybatis:
   mapper-locations:
   - classpath:mapper/*.xml
+  
+  
+jdbc:
+  url: jdbc:mysql://47.98.163.175:3306/zacharychao?useSSL=false&serverTimezone=UTC
+  driverClassName: com.mysql.cj.jdbc.Driver
+  username: root
+  password: zacharychao
     

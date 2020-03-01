@@ -20,6 +20,8 @@
 		<module>zacharychao-eureka1</module>
 		<module>zacharychao-eureka2</module>
 		<module>zacharychao-zuul</module>
+		<module>zacharychao-ebuy-mongodb-web</module>
+		<module>zacharychao-mvc-simple</module>
 	</modules>
 	<properties>
 		<maven-jar-plugin.version>3.1.1</maven-jar-plugin.version>

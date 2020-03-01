@@ -1,0 +1,13 @@
+server:
+  port: 8091
+spring:
+  application:
+    name: mongodb-web
+  datasource:
+    url: jdbc:mysql://47.98.163.175:3306/zacharychao?useSSL=false&serverTimezone=UTC
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    username: root
+    password: zacharychao
+  data:
+    mongodb:
+      uri: mongodb://47.98.163.175:27017/k10
