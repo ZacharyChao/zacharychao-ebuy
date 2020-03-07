@@ -4,6 +4,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.cache.annotation.CacheConfig;
 import org.springframework.data.redis.core.RedisTemplate;
 import org.springframework.data.redis.core.ValueOperations;
+import org.springframework.data.redis.serializer.StringRedisSerializer;
 import org.springframework.stereotype.Service;
 
 import com.zacharychao.admin.example.mapper.TestMapper;
@@ -21,9 +22,9 @@ public class RedisService {
 		ValueOperations opsForValue = redisTemplate.opsForValue();
 		Object number = opsForValue.get("number");
 		if(number == null) {
+			redisTemplate.setKeySerializer(new StringRedisSerializer());
 			number = testMapper.getAllTest();
 			opsForValue.set("number", number);
-			
 		}
 		return number; 
 	}
